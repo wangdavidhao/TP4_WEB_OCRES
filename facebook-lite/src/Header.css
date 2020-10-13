@@ -1,0 +1,43 @@
+.header_container{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    
+}
+
+.header_title{
+    display: flex;
+    flex: 0.8;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title > h1 {
+    font-size: 4rem;
+    color: #00b894;
+}
+
+
+.header_buttons{
+    display: flex;
+    flex:0.2;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_buttons > button{
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #1abc9c;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+    outline: none;
+}
+
+.header_buttons > button:hover{
+    cursor: pointer;
+    background-color: #16a085;
+}

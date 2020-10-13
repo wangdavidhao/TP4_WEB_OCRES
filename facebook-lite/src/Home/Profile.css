@@ -1,0 +1,41 @@
+.profile_container{
+    background-color: white;
+    width: 600px;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.profile_avatar{
+    margin: 1rem;
+}
+
+.profile_infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.profile_change{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.profile_change_button{
+    cursor: pointer;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10  px rgba(0,0,0,0.1);
+    outline: none;
+
+    background-color: #2d3436;
+    color: #fff;
+    
+}
+
+.profile_change_button:hover{
+    background-color: #636e72;
+    color:#fff ;
+}

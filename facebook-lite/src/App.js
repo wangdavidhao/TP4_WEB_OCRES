@@ -11,21 +11,24 @@ const profils = [
         prenom:'David',
         nom:'Wang',
         dateNaissance:'09/11/1999',
-        avatar:'./profile_david.PNG'
+        avatar:'./profile_david.PNG',
+        lastPost:'Voici ma dernière publication, n\'hesitez pas à mettre un like !'
     },
     {
         id:1,
         prenom:'Sandra',
         nom:'Tang',
-        dateNaissance:'09/12/1999',
-        avatar:'./profile_sandra.PNG'
+        dateNaissance:'01/03/1999',
+        avatar:'./profile_sandra.PNG',
+        lastPost:'Je m\'appelle Sandra'
     },
     {
         id:2,
         prenom:'Benjamin',
         nom:'Sadoun',
-        dateNaissance:'09/06/1999',
-        avatar:'./profile_benjamin.PNG'
+        dateNaissance:'24/02/1999',
+        avatar:'./profile_benjamin.PNG',
+        lastPost:'Je m\'appelle Benjamin'
     }
 ]
 

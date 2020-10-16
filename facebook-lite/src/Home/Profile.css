@@ -1,13 +1,31 @@
 .profile_container{
     background-color: white;
-    width: 600px;
+    border-radius: 10px;
     margin: 2rem;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_color{
+    background-color: #00cec9;
+    display: flex;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.profile_subContainer{
+    flex-direction: column;
+    display: flex;
+    flex: 0.5;
+    background-color: white;
+    width: 600px;
+    padding: 0.8rem;
     border-radius: 8px;
 }
 
 .profile_avatar{
-    margin: 1rem;
+    margin: 0.8rem;
 }
 
 .profile_infos{
@@ -20,6 +38,8 @@
 .profile_change{
     display:flex;
     justify-content: flex-end;
+    padding: 2rem;
+    flex: 0.3;
 }
 
 .profile_change_button{

@@ -7,6 +7,7 @@ function Profile(props) {
     console.log(props.avatar);
     return (
         <div className="profile_container">
+            <div className="profile_color"></div>
             <div className="profile_subContainer">
                 <div className="profile_avatar">
                     <Avatar className="profile_avatar"  alt={props.prenom + props.nom} src={require(`${props.avatar}`)} ></Avatar>
@@ -21,7 +22,7 @@ function Profile(props) {
             </div>
             
             <div className="profile_change">
-                <button className="profile_change_button">Changer style</button>
+                <button className="profile_change_button" >Changer style</button>
             </div>
         </div>
     )

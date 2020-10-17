@@ -10,7 +10,7 @@ function Home(props) {
             <Profile nom={props.profile.nom} prenom={props.profile.prenom} 
                 dateNaissance={props.profile.dateNaissance} avatar={props.profile.avatar} >
             </Profile>
-            <Post lastPost={props.profile.lastPost} ></Post>
+            <Post profile={props.profile} ></Post>
         </div>
     )
 }

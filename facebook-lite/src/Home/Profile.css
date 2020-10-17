@@ -41,6 +41,16 @@
     flex: 0.3;
 }
 
+.profile_change > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_change > button > p{
+    margin-right: 0.5rem;
+}
+
 .profile_change_button{
     cursor: pointer;
     border: none;

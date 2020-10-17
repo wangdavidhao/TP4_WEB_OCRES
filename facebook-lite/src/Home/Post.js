@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './Post.css';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 import {profils} from './profils.js';
 
@@ -20,7 +21,7 @@ function Post (props) {
                 <p>{props.profile.lastPost}</p>
             </div>
             <div className="post_like">
-                <button onClick={handleLike}>J'aime</button>
+                <button onClick={handleLike}><p>J'aime</p> <FavoriteIcon fontSize="inherit"></FavoriteIcon></button>
                 <p>Nombre like : {props.profile.nbLike}</p>
             </div>
         </div>

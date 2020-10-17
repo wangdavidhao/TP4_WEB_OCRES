@@ -7,8 +7,7 @@ import Post from './Post.js';
 function Home(props) {
     return (
         <div className="home_container">
-            <Profile nom={props.profile.nom} prenom={props.profile.prenom} 
-                dateNaissance={props.profile.dateNaissance} avatar={props.profile.avatar} >
+            <Profile profile={props.profile} >
             </Profile>
             <Post profile={props.profile} ></Post>
         </div>

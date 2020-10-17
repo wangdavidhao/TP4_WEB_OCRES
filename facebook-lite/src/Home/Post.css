@@ -9,6 +9,9 @@
 }
 
 .post_like > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0.7rem;
     border: none;
     outline: none;
@@ -16,6 +19,10 @@
     color:#fff;
     background-color: #f53b57;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}
+
+.post_like > button > p{
+    margin-right: 0.5rem;
 }
 
 .post_like > button:hover{

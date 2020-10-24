@@ -8,6 +8,7 @@ import Home from './Home/Home.js';
 import {profils} from './Home/profils.js'; //On importe profils (un objet javascript qui contient les données de chaque utilisateurs)
 
 /**Composant APP à la racine de l'hierarchie (c le composant tout au dessus qui englobe tous les autres) */
+//C'est ici qu'on importe profils car tous ses éléments enfants auront besoin des données utilisateurs
 
 function App() {
 

@@ -7,9 +7,11 @@ import EditIcon from '@material-ui/icons/Edit';
 
 function Profile(props) {
 
+    /**Donnée locale color, on l'initialise avec l'array d'objet depuis props */
     const [color, setColor] = useState(props.profile.backColor);
 
 
+    //Si clique sur bouton on trouve l'index (0, 1 ou 2) et on le modifie avec une couleur aléatoire et on set la donnée locale color avec une nouvelle couleur
     const handleChangeBack = () => {
         let index = profils.findIndex(id => id.id === props.profile.id);
         profils[index].backColor =  '#'+Math.floor(Math.random()*16777215).toString(16);

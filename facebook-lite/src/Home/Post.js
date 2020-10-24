@@ -6,8 +6,10 @@ import {profils} from './profils.js';
 
 function Post (props) {
 
+    //On set la donnée locale like aux nb de like récupérés avec props (props=array d'objet), donc 0 like
     const [like,setLike] = useState(props.profile.nbLike);
 
+    //Si on clique sur j'aime alors on trouve l'index du profil en question, on se positionne dessus et on l'incrémente et enfin change la donnée locale
     const handleLike = () => {
         let index = profils.findIndex(id => id.id === props.profile.id);
         profils[index].nbLike++;

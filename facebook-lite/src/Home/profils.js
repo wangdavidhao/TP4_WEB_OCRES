@@ -1,11 +1,12 @@
+/*array d'objets js qui contient les données de chaque utilisateurs, export pour pouvoir l'utiliser ds un autre fichier*/
 export let profils = [
     {
         id:0,
-        prenom:'David',
-        nom:'Wang',
-        dateNaissance:'09/11/1999',
-        avatar:'./profile_david.PNG',
-        lastPost:'Voici ma dernière publication, n\'hesitez pas à mettre un like !',
+        prenom:'Grace',
+        nom:'G-Y-T',
+        dateNaissance:'26/04/2000',
+        avatar:'./profile_grace.PNG',
+        lastPost:'Mais quelle grace !!!',
         nbLike:0,
         backColor:"#00cec9"
     },
